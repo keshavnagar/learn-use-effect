@@ -1,14 +1,12 @@
 import { useEffect, useState } from "react";
 const UE = () => {
   const [date, setDate] = useState(0);
-
+  setInterval(() => {
+    const updatedDate = new Date();
+    setDate(updatedDate.toLocaleTimeString());
+  }, 1000);
   useEffect(
     () => {
-      setInterval(() => {
-        const updatedDate = new Date();
-        setDate(updatedDate.toLocaleTimeString());
-      }, 1000);
-
       // side effect code
 
       return () => {};
