@@ -1,9 +1,10 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 const UE = () => {
+  const [count, setCount] = useState(0);
   useEffect(
     () => {
       // side effect code
-      console.log("component is mounted")
+      console.log("component mounted");
       return () => {};
     },
     [
@@ -13,6 +14,8 @@ const UE = () => {
   return (
     <>
       <h1>Hello UseEffect</h1>
+      <p>{count}</p>
+      <button onClick={() => setCount(count + 1)}>Increment</button>
     </>
   );
 };
