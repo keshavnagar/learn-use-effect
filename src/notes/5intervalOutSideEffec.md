@@ -2,3 +2,5 @@ when we write the set interval outside the use effect than it even run betterly 
 so this is the first doubt 
 so this is done because the set interval is the external thing not the react thing it update every time the 
 we also understood some thing from comment first we add the changes in one by on github
+so in the screenshot that name is consoleUpdateDate , in which i add the updateDate in side  the concole.log and it look like the console.log line again and again on console than we realize how many time it 
+like when we write the set interval outside the use effect we give to permision to react component every time re render than the interval creation every time but we want the interval is only in one time make and only one time when use effect is calling only one time if we do not give any thing in inside the dependency so it only create the interval one time than the interval do their work but only created one time , but here in this case it create every time and make update simultaneulsly it cuase the memory leak and unwated behavious that's why we use the use effect now we use the same code with console.log in our UE.jsx file

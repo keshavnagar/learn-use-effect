@@ -4,6 +4,7 @@ const UE = () => {
   setInterval(() => {
     const updatedDate = new Date();
     setDate(updatedDate.toLocaleTimeString());
+    console.log(updatedDate)
   }, 1000);
   useEffect(
     () => {
