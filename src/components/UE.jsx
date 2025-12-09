@@ -5,12 +5,12 @@ const UE = () => {
   useEffect(
     () => {
       // side effect code
-      setInterval(() => {
+      const intervalId = setInterval(() => {
         const updatedDate = new Date();
         setDate(updatedDate.toLocaleTimeString());
         console.log(updatedDate);
       }, 1000);
-      return () => {};
+      return () => clearInterval(intervalId);
     },
     [
       /*dependency*/
