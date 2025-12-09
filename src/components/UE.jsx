@@ -4,8 +4,11 @@ const UE = () => {
 
   useEffect(
     () => {
-      const updatedDate = new Date();
-      setDate(updatedDate.toLocaleTimeString())
+      setInterval(() => {
+        const updatedDate = new Date();
+        setDate(updatedDate.toLocaleTimeString());
+      }, 1000);
+
       // side effect code
 
       return () => {};
