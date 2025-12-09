@@ -4,7 +4,7 @@ const UE = () => {
   useEffect(
     () => {
       // side effect code
-      console.log("component mounted");
+      console.log(`counter value is : ${count}`);
       return () => {};
     },
     [
