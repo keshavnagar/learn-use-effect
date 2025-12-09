@@ -1,7 +1,19 @@
+import { useEffect } from "react";
+import UE from "./components/UE";
 const App = () => {
-  return(
+  useEffect(
+    () => {
+      // side effect code
+      return () => {};
+    },
+    [
+      /*dependency*/
+    ]
+  );
+  return (
     <>
+      <UE />
     </>
-  )
-}
-export default App
+  );
+};
+export default App;
