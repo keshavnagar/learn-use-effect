@@ -7,7 +7,9 @@ when we fetch data in react component, we're performing a side effect because:
 
 External Integration: 
 
-so here we understand the meaning of external integration is its the external integration of some elements like these elements dont provide by react itself these are comes from another api or server and we handle these external things like we are not using the react's own thing we just use them from api and server and this is handled by useEffect, like when our function is changing any data that is comes from ouside that is not work by a funciton that is a pure funciton in react but it alsways done by use effect in which we provide the callback function that useEffect handled this component and than we use the external integraion 
+so here we understand the meaning of external integration , its the external integration of some elements like these elements dont provide by react itself these are comes from another api or server and we handle these external things like we are not using the react's own thing we just use them from api and server and this is handled by useEffect, like when our function is changing any data that is comes from ouside that is not work by a funciton that is a pure funciton in react but it alsways done by use effect in which we provide the callback function that useEffect handled this component and than we use the external integraion 
+
+means here we need to handle the external things , and for this handle we need to hook that's why we says here is the fetching data is not react thing its other things and when we deal with  that thing we use hooks
 
 now we write the give definition in ppt: 
 
