@@ -61,7 +61,7 @@ so above def is explain that we understand the side effect is handled by useEffe
 
 why the control and manageable manner 
 
-like in useState we use the value = {stateValue} and onchange funciton like if we use these things than our component is called controle component same as when we use the use effect to handle side effect than it is also called controlled compeont 
+like in useState we use the value = {stateValue} and onchange funciton like if we use these things than our component is called controle component same as when we use the use effect to handle side effect than it is also called controlled compeont and that's why the hooks are control the code than we called this react componentes as controlled components whose controlled by react
 
 
 
