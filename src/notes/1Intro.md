@@ -27,7 +27,7 @@ one more thing in that line number thing  i mentino there when the value in arra
 
 like jo apan ne abhhi abhi ek project banaya tha jisme apan ne timer ko clean up kiya tha use effect hook ki help se usme isee ka use kiiya tha 
 
-so i understood the example of the function: 
+so i explain the example of the function: 
 
 in react, functions are pure, meaning they return the same output for the same input without causing side effects.
 
