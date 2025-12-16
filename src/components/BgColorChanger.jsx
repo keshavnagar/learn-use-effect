@@ -2,19 +2,23 @@ import { useEffect, useState } from "react";
 
 const BgColorChanger = () => {
   const [color, setColor] = useState("#DDDF31");
+  const [control, setControl] = useState(false);
   useEffect(() => {
-    const id = setInterval(() => {
-      const randomColor =
-        `#` +
-        Math.floor(Math.random() * 16777215)
-          .toString(16)
-          .padStart(6, "0");
-      setColor(randomColor);
-    }, 2000);
+    let id;
+    if (control) {
+      id = setInterval(() => {
+        const randomColor =
+          `#` +
+          Math.floor(Math.random() * 16777215)
+            .toString(16)
+            .padStart(6, "0");
+        setColor(randomColor);
+      }, 2000);
+    }
     return () => {
       clearInterval(id);
     };
-  }, []);
+  }, [control]);
   return (
     <section
       style={{ backgroundColor: color }}
@@ -23,6 +27,9 @@ const BgColorChanger = () => {
       <h1 className="bg-[#123412] text-[#EABE7C] p-4 text-[2rem]">
         Color code is : {color}
       </h1>
+      <button onClick={() => setControl(!control)}>
+        {control ? `stop` : `start`}
+      </button>
     </section>
   );
 };
