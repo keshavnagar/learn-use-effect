@@ -21,7 +21,7 @@ in previous time, i understand this thing like when there is nothing in dependen
 
 and the meaning of the line that we write is like when we run or re run the use effects hook 
 
-one more thing in that line number thing  i mentino there when the value in array will changes than the effect will run again like the ocmponent is agian render on state value because state value is change if we right inside the dependency than it will also run 
+one more thing in that line number thing  i mentino there when the value in array will changes than the effect will run again means  the ocmponent is agian render on state value because state value is change if we right inside the dependency than it will also run 
 
 4. cleanup: useEffect can return a cleanup function to clean up after the effect, such as unsubscribing from an event or clearing a timer.
 
