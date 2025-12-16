@@ -31,9 +31,9 @@ so i explain the example of the function:
 
 in react, functions are pure, meaning they return the same output for the same input without causing side effects.
 
-like we have one funcitno and we pass the argument with this function means we give one input to this function and than this funciton return should be the output based on this same input that we give not by other.
+like we have one funcitno and we pass the argument with this function means we give one input to this function and than this funciton return should be the output based on this same input that we give not by other varibale.
 
-but the theory of side effects said if the funciton manipulate other value that we dont even pass to that funciton and the fucntion is manipultate that input and give the output based on external input than it is side effect
+but the theory of side effects said if the funciton manipulate other value that we dont even pass to that funciton and the fucntion is manipultate that other value and give the output based on external input than it is side effect
 
 for example of one funtion that is example of side effect that manipulate other variable event that is not same that we pass even we are not pass the input to this funciton or even if we pass any other input to this funciton and it is manipulate other variable even we do not give to it that is called side effect 
 
