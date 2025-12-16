@@ -55,7 +55,7 @@ A side effect is any operation that affects something outside the scope of a fun
 
 above definition is def of side effect
 
-In react, side effects are managed usding hooks like useEffect to ensure they are handled in a control and predicatable manner.
+In react, side effects are managed by useEffect to ensure they are handled in a control and predicatable manner.
 
 so above def is explain that we understand the side effect is handled by useEffect 
 
