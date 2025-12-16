@@ -47,7 +47,7 @@ increment();
 console.log(count); //1
 
 this funciton update the value that is not in their scope 
-side effect means you must focus on your own work why interfare in other work
+pure functions means you must focus on your own work why interfare in other work
 
 but in react that we discuss earlier the pure function has not capability to do the side effect they only work on the varibale that we give to as input like they only work on that same value so in react if we want to do this thing that is not in react funciotn than the useEffect comes into the picture and solve this problem
 
