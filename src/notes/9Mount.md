@@ -13,4 +13,10 @@
 6. its like when we sit on pangat for food the cleanupp function run for old person who before sitting to us
 7. and the cleanfuntion of us is only runs when we stand and absence from their so that clean up function is us 
 8. and immediately after the cleanup since we change the state means new component is also comming in wait so they comes and sit their 
-
+# compare lifecycle to the use effects features:
+1. when the dependency is empty than our component is only runs once or mounted 
+2. when our dependecy has some value than the lifecycle is called updation
+3. when the component is unmount than our cleanup function run before the company unmounted
+# example of use effect of online offline status
+1. when someone is online than we track them with the help of use effect like the mounted
+2. and if someone is offline than we track them with the help of unmounted or cleanup function
