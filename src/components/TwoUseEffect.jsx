@@ -3,9 +3,9 @@ import { useEffect, useState } from "react";
 const TwoUseEffect = () => {
   const [count, setCount] = useState(0);
   useEffect(() => {
-    console.log("component mount for: ", count);
+    console.log(count, "comes");
     return () => {
-      console.log("component unmount for: ", count);
+      console.log(count, "goes");
     };
   }, [count]);
   return (
